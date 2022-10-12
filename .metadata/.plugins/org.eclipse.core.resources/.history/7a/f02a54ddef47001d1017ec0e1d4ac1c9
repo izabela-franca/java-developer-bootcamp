@@ -1,0 +1,22 @@
+package logica.decisao;
+
+import br.com.softblue.commons.io.Console;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Insira a sua idade: ");
+		int idade = Console.readInt();
+		
+		if (idade <= 12) {
+			System.out.println("Você é uma criança.");
+		} else if (idade > 12 && idade < 18){
+			System.out.println("Você é um adolescente.");
+		} else if (idade >= 60){
+			System.out.println("Você é um adulto.");
+		}
+
+	}
+
+}

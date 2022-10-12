@@ -1,0 +1,15 @@
+package logica.repeticao;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		double nota;
+		int cont = 1;
+		
+		do {
+			nota = 2;
+		} while (nota != -1);
+	}
+
+}

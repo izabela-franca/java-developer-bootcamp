@@ -1,0 +1,23 @@
+package logica.operadores.aritmeticos;
+
+import br.com.softblue.commons.io.Console;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		String nome;
+		String sobrenome;
+		
+		System.out.println("Digite o nome: ");
+		nome = Console.readString();
+		
+		System.out.println("Digite o sobrenome: ");
+		sobrenome = Console.readString();
+		
+		String nomeCompleto = nome + sobrenome;
+		
+		System.out.println("Nome completo: "nomeCompleto);
+	}
+
+}

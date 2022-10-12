@@ -1,0 +1,9 @@
+package logica.operadores.aritmeticos;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -6,7 +6,7 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		// Concatenando variÃ¡veis
+		// Concatenando variáveis
 
 		String nome;
 		String sobrenome;
@@ -21,7 +21,7 @@ public class Main {
 
 		System.out.println("Nome completo: " + nomeCompleto);
 
-		// CÃ¡lculo Baskara
+		// Cálculo Baskara
 
 		System.out.println("Insira o valor de a: ");
 		double a = Console.readDouble();
@@ -41,15 +41,15 @@ public class Main {
 		System.out.println("x1 = " + x1);
 		System.out.println("x2 = " + x2);
 
-		// CÃ¡lculo perÃ­metro de uma hexÃ¡gono
+		// Cálculo perímetro de uma hexágono
 
 		System.out.println("Insira o valor do lado: ");
 		int lado = Console.readInt();
 		int perimetro = lado * 6;
 		double area = (3 * lado * Math.sqrt(3)) / 2;
 
-		System.out.println("Perimetro = " + perimetro);
-		System.out.println("Area = " + area);
+		System.out.println("Perímetro = " + perimetro);
+		System.out.println("Área = " + area);
 
 	}
 

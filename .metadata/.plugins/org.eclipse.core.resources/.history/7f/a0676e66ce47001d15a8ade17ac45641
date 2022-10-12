@@ -1,0 +1,21 @@
+package logica.operadores.aritmeticos;
+
+public class Main2 {
+
+	public static void main(String[] args) {
+		
+		// Operadores Lógicos
+		
+		boolean a = true;
+		boolean b = !a;	//negação
+		
+		System.out.println("b = " + b);
+		
+		boolean c = true;
+		boolean d = true;
+		boolean e = c && d;
+		
+		System.out.print("e = " + e);	//conjunção (E)
+	}
+
+}

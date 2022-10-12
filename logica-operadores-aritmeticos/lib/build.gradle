@@ -20,8 +20,3 @@ repositories {
 dependencies {
 	implementation 'com.github.softbluecursos:softblue-commons:1.0'
 }
-
-tasks.named('test') {
-    // Use JUnit Platform for unit tests.
-    useJUnitPlatform()
-}
