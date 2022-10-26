@@ -12,9 +12,19 @@ public class Game {
 
 		UI.printGameTitle();
 
-		// UI.readInput("Player's name: ");
+		for (int i = 0; i < players.length; i++) {
+			players[i] = createPlayer(i);
+		}
 
-		board.print();
+	}
 
+	private Player createPlayer(int index) {
+		String name = UI.readInput("Player " + (index + 1) + " => ");
+		char symbol = Constants.SYMBOL_PLAYERS[index];
+		Player player = new Player(name, board, symbol);
+
+		UI.printText("Player " + name + " uses the symbol " + symbol);
+
+		return player;
 	}
 }
