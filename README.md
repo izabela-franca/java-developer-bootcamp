@@ -1,7 +1,9 @@
-Contents seen and practiced: <br>
+# Java Master Developer Bootcamp💻
 
+Repositório criado para conteúdos vistos no Bootcamp Orange Tech + | Backend Java.
 
-_________________________________________________________________
+Cursos concluídos:
 
-Conteúdos vistos e praticados: <br>
-
+- Conceitos de Lógica de Programação & Algoritmos;
+- Jogo da Velha: Explorando os Fundamentos do Java;
+- Jogo da Forca: Solidificando os Conceitos do Java e Orientação a Objetos;
