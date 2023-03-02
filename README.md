@@ -1,6 +1,6 @@
 # Java Master Developer Bootcamp💻
 
-Repositório criado para conteúdos vistos no Bootcamp Orange Tech + | Backend Java.
+Repositório criado para conteúdos vistos no Bootcamp Java Master Developer.
 
 Cursos concluídos:
 
