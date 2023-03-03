@@ -1,7 +1,0 @@
-class
-object
-programming
-heritage
-java
-logic
-condition
