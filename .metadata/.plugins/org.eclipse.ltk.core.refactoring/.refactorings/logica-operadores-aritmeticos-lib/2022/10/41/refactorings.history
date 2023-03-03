@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring accessors="true" comment="Delete element from project &apos;logica-operadores-aritmeticos-lib&apos;&#x0D;&#x0A;- Original project: &apos;logica-operadores-aritmeticos-lib&apos;&#x0D;&#x0A;- Original element: &apos;logica.operadores.aritmeticos.Library.java&apos;" description="Delete element" element1="/src\/main\/java=/gradle_scope=/main=/=/gradle_used_by_scope=/main,test=/&lt;logica.operadores.aritmeticos{Library.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1665255224544" subPackages="false" version="1.0"/>
-</session>
