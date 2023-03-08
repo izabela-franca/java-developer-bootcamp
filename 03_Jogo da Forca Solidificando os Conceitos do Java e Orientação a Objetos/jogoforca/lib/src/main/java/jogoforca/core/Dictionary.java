@@ -11,8 +11,23 @@ public class Dictionary {
 	
 	private static final String FILE_NAME = "dictionary.txt";
 	
+	private static Dictionary instance;
+	
 	private List<String> words = new ArrayList<>();
+	
+	private Dictionary() {
+		load();
+	}
 
+	//Design Pattern Singleton
+	public static Dictionary getInstance() {
+		if (instance == null) {
+			instance = new Dictionary();
+		}
+		return instance;
+	}
+	
+	
 	private void load() {
 		
 		try (Scanner scanner = new Scanner(getClass().getResourceAsStream("/" + FILE_NAME))) {
